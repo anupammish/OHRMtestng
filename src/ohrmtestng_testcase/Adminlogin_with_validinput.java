@@ -15,6 +15,7 @@ public class Adminlogin_with_validinput extends Apputils {
 		lp.login(uid, pwd);
 		boolean res = lp.isAdminModuleDisplayed();
 		Assert.assertTrue(res);
+		System.out.println("test pass");
 		lp.logout();
 
 	}
