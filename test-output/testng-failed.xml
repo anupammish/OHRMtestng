@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [OHRMtetng Test Suite]">
+  <test thread-count="5" name="Admin login testcase with invalid input (failed)">
+    <parameter name="adminpwd" value="xyz"/>
+    <parameter name="adminuid" value="abc"/>
+    <classes>
+      <class name="ohrmtestng_testcase.Adminlogin_with_invalidinput">
+        <methods>
+          <include name="CheckAdminlogin" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- ohrmtestng_testcase.Adminlogin_with_invalidinput -->
+    </classes>
+  </test> <!-- Admin login testcase with invalid input (failed) -->
+</suite> <!-- Failed suite [OHRMtetng Test Suite] -->

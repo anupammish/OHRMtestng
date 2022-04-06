@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="OHRMtetng Test Suite" duration-ms="8787" started-at="2022-02-08T20:05:18Z" finished-at="2022-02-08T20:05:27Z">
+    <groups>
+    </groups>
+    <test name="Admin login testcase with valid input Test" duration-ms="3691" started-at="2022-02-08T20:05:18Z" finished-at="2022-02-08T20:05:22Z">
+      <class name="ohrmtestng_testcase.Adminlogin_with_validinput">
+        <test-method status="PASS" signature="CheckAdminlogin(java.lang.String, java.lang.String)[pri:0, instance:ohrmtestng_testcase.Adminlogin_with_validinput@7c16905e]" name="CheckAdminlogin" duration-ms="3666" started-at="2022-02-08T20:05:18Z" finished-at="2022-02-08T20:05:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Qedge123!@#]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckAdminlogin -->
+      </class> <!-- ohrmtestng_testcase.Adminlogin_with_validinput -->
+    </test> <!-- Admin login testcase with valid input Test -->
+    <test name="Admin login testcase with invalid input " duration-ms="794" started-at="2022-02-08T20:05:22Z" finished-at="2022-02-08T20:05:23Z">
+      <class name="ohrmtestng_testcase.Adminlogin_with_invalidinput">
+        <test-method status="PASS" signature="CheckAdminlogin(java.lang.String, java.lang.String)[pri:0, instance:ohrmtestng_testcase.Adminlogin_with_invalidinput@3ffc5af1]" name="CheckAdminlogin" duration-ms="788" started-at="2022-02-08T20:05:22Z" finished-at="2022-02-08T20:05:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[xyz]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckAdminlogin -->
+      </class> <!-- ohrmtestng_testcase.Adminlogin_with_invalidinput -->
+    </test> <!-- Admin login testcase with invalid input  -->
+    <test name="Employee registration testcase" duration-ms="4221" started-at="2022-02-08T20:05:23Z" finished-at="2022-02-08T20:05:27Z">
+      <class name="ohrmtestng_testcase.Employee_registration_testcase">
+        <test-method status="PASS" signature="launchApp()[pri:0, instance:ohrmtestng_testcase.Employee_registration_testcase@6f7fd0e6]" name="launchApp" is-config="true" duration-ms="5417" started-at="2022-02-08T20:05:13Z" finished-at="2022-02-08T20:05:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method status="PASS" signature="checkEmployeRegistration(java.lang.String, java.lang.String)[pri:0, instance:ohrmtestng_testcase.Employee_registration_testcase@6f7fd0e6]" name="checkEmployeRegistration" duration-ms="4218" started-at="2022-02-08T20:05:23Z" finished-at="2022-02-08T20:05:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[anupam]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mishra]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkEmployeRegistration -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:ohrmtestng_testcase.Employee_registration_testcase@6f7fd0e6]" name="closeApp" is-config="true" duration-ms="72" started-at="2022-02-08T20:05:27Z" finished-at="2022-02-08T20:05:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- ohrmtestng_testcase.Employee_registration_testcase -->
+    </test> <!-- Employee registration testcase -->
+  </suite> <!-- OHRMtetng Test Suite -->
+</testng-results>

@@ -1,0 +1,51 @@
+<suite name="OHRMtetng Test Suite">
+
+	<test name="Admin login testcase with valid input Test">
+		<parameter name="adminuid" value="Admin">
+		</parameter>
+		<parameter name="adminpwd" value="Qedge123!@#">
+		</parameter>
+
+
+		<classes>
+
+			<class name="ohrmtestng_testcase.Adminlogin_with_validinput">
+
+
+			</class>
+
+		</classes>
+
+	</test>
+
+	<test name="Admin login testcase with invalid input ">
+		<parameter name="adminuid" value="abc">
+		</parameter>
+		<parameter name="adminpwd" value="xyz">
+		</parameter>
+
+
+		<classes>
+
+			<class name="ohrmtestng_testcase.Adminlogin_with_invalidinput">
+
+
+			</class>
+
+		</classes>
+
+	</test>
+	<test name="Employee registration testcase">
+
+		<parameter name="fstname" value="anupam">
+		</parameter>
+		<parameter name="lstname" value="mishra">
+		</parameter>
+		<classes>
+			<class name="ohrmtestng_testcase.Employee_registration_testcase">
+			</class>
+
+		</classes>
+
+	</test>
+</suite>
